@@ -29,6 +29,7 @@
           crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
           rel="stylesheet">
+          <script src="https://kit.fontawesome.com/6fd519cc43.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="bodys">
@@ -39,20 +40,20 @@
                 <img src="./img/logo.svg" alt="">
             </div>
             <div class="nav-links">
-                <ul>
-                    <a href="">
+                <ul id="toggeleIt">
+                    <a href=""onclick="toggledown()">
                         <li>SERVICES</li>
                     </a>
-                    <a href="">
+                    <a href=""onclick="toggledown()">
                         <li>OUR WORK</li>
                     </a>
-                    <a href="">
+                    <a href=""onclick="toggledown()">
                         <li>ABOUT US</li>
                     </a>
-                    <a href="">
+                    <a href=""onclick="toggledown()">
                         <li>BLOG</li>
                     </a>
-                    <a href="">
+                    <a href="" onclick="toggledown()">
                         <li>CONTACT</li>
                     </a>
                     <li class="search-input">
@@ -63,6 +64,10 @@
                     </li>
 
                 </ul>
+                <div class="toggle-bar">
+                 <i class="fa-solid fa-bars" id="down" onclick="toggletop()"></i>
+                 <i  class="fa-solid fa-x" id="up" onclick="toggledown()"></i>
+                </div>
             </div>
         </div>
     </header>
@@ -70,7 +75,7 @@
         <div class="weare lr-pad">
             <div class="content-area">
                 <h1 class="creta">We are
-                    <span class="Creative">Creative Studio</span>
+                    <span class="Creative">Creative <br class="mbl"> Studio</span>
                 </h1>
                 <p class="para">We are a multi-discplinary design,
                     development, and digital marketing agency based in New York and
@@ -92,7 +97,7 @@
                 <h2 class="section-heading">Our work
                     <div class="unerline"></div>
                 </h2>
-                <p>We partner with big brands to create powerful products and experiences. Take a peak at our projects!
+                <p>We partner with big brands to create powerful products and experiences. <br class="tab"> Take a peak at our projects!
                 </p>
 
             </div>
@@ -221,9 +226,14 @@
                     <div class="indivi-card">
                         <img src="img/appdesigncard.jpg"
                              alt="appdesigncard">
+<div class="card-detail tab">
 
+                            <h2>Web Design</h2>
+                            <p>We craft exceptional interactive digial user experiences that extend across a brand's
+                                entire ecosystem</p>
+                        </div>
                     </div>
-                    <div class="indivi-card">
+                    <div class="indivi-card desk">
 
                         <div class="card-detail">
 
@@ -285,7 +295,7 @@
     <footer class=" lr-pad">
 
         <div class="container off">
-            <div>
+            <div class="lef"><div>
                 <h2 class="footer-head">Our Offices</h2>
                 <ul class="footer-link">
                     <li><a href="#">136 W 30th Street <br>
@@ -295,7 +305,7 @@
                 </ul>
             </div>
             <div>
-                <ul class="footer-link">
+                <ul class="footer-link desk">
                     <li><a href="#">1800 Larsson Street <br>
                             Manhattan Beach, CA 90266</a></li>
                     <li><a href="#">(424) 223 -3767</a></li>
@@ -309,13 +319,23 @@
                 </ul>
 
 
+            </div></div>
+            <div class="desk-right tab">
+                 <div>
+                <ul class="footer-link ">
+                    <li><a href="#">1800 Larsson Street <br>
+                            Manhattan Beach, CA 90266</a></li>
+                    <li><a href="#">(424) 223 -3767</a></li>
+                    <li><a href="#">Mon - Fri 8:30am - 4:30pm</a></li>
+                </ul>
+            </div>
             </div>
 
         </div>
         <div class="subscribe">
 
 
-            <h2 class="footer-head">Subscribe To Our <br> Newsletter</h2>
+            <h2 class="footer-head">Subscribe To Our <br class="desk"> Newsletter</h2>
 
             <form action="#"
                   method="get"
@@ -349,7 +369,7 @@
     </div>
 
 </body>
-<!-- <script src="js/main.js" defer> </script> -->
+<script src="js/main.js" > </script>
 
 
 </html>
