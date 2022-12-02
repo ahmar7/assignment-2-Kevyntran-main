@@ -254,13 +254,12 @@ main {
     cursor: pointer;
     border-radius: 5px;
     text-transform: uppercase;
-    padding: 13px 20px;
+    /* padding: 13px 20px; */
     background-color: #43c6ac;
     color: white;
     font-weight: 400;
     font-family: "Rubik";
     border: 2px solid #43c6ac;
-    margin-left: 20px;
 
 }
 
@@ -615,133 +614,160 @@ footer {
     display: none;
 }
 
-.tab {
-    display: none;
-}
+
 
 .mbl {
     display: none;
 }
 
-.nav-links ul li {
-    border-bottom: 1px solid #43c6ac;
-    padding: 15px 15px;
+.contact {
+    height: 45vh;
 }
 
-.para {
-    width: auto;
+.cl-sec {
+    padding: 150px 0;
 }
 
-.worked p {
-    width: auto;
+.email-us h3 {
+    font-size: 2.25rem;
+    line-height: 43px;
+    color: #0c0b2a;
+    font-weight: 300;
+    font-family: "Rubik";
 }
 
-.tab {
-    display: block;
+.mailto {
+    font-size: 1.875rem;
+    color: #43c6ac;
+    font-weight: 700;
+    font-family: "Rubik";
 }
 
-.web-cards {
-    width: 400px;
+.inner-area {
+
+    margin: 10px 0;
 }
 
-.flex-web {
-    width: max-content;
+.call {
+    margin-top: 10px;
 }
 
-.together, .view {
-    font-size: 1.3rem;
-    padding: 17px 35px;
-}
-
-.right-view {
-    font-size: 1.3rem;
-    padding: 18px 80px 18px 50px;
-
-}
-
-.arrow-left {
-    top: 30%;
-}
-
-.cards-flex {
-    flex-direction: column;
-}
-
-.right-card {
-    flex-direction: column;
-    margin-top: 30px;
-}
-
-.indivi-card {
+.flex-call {
+    margin-top: 10px;
     display: flex;
-    margin: 15px 0 !important;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.indivi-card {
-    width: 100%;
+.left-call {
+    width: 300px;
 }
 
-
-
-.indivi-card img {
-    height: auto;
-    width: 48%;
+.left-call h4 {
+    font-size: 1.125rem;
+    color: #0c0b2a;
+    font-weight: 700;
+    font-family: "Rubik" !important;
 }
 
-.card-detail {
-    width: 48%;
+.left-call p {
+    font-size: 1.125rem;
+    color: #0c0b2a;
+    font-weight: 400;
+    margin: 10px 0;
+    font-family: "Rubik" !important;
 }
 
-.tab {
-    display: block;
-}
-
-.cf-alighn {
-    flex-direction: column-reverse;
-}
-
-.cf-alighn .right-card,
-.cf-alighn .left-card {
-    width: 100%;
-    margin: 15px 0;
-}
-
-.blog {
-    padding-top: 50px;
+.about-sec {
+    padding-top: 80px;
     padding-bottom: 80px;
 }
 
-footer {
-    flex-direction: column;
+.about-head {
+    font-size: 1.875rem;
+    color: #0c0b2a;
+    font-weight: 300;
+    font-family: "Rubik";
 }
 
-.subscribe {
-    width: 100%;
-    margin-top: 50px;
-}
-
-.butn {
-    width: 60%;
-}
-
-.off {
-    width: 100%;
+.field-flex {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+
 }
 
-.desk-right {
-    margin-left: 100px;
-    margin-top: 38px;
+.field-label {
+    font-size: 1.12rem;
+    color: #0c0b2a;
+    font-weight: 300;
+    font-family: "Rubik";
+}
+
+.indiv-field {
+    margin: 15px 0;
+    width: 48%;
+}
+
+.indiv-field input, .indiv-field textarea {
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    padding: 15px 15px;
+    border: 2px solid #c6435d;
+    font-family: "Rubik";
+    width: 100%;
+}
+
+.bd {
+    margin: 30px 0;
+}
+
+.opt {
+    border-color: #43c6ac !important;
+}
+
+.bge-sec {
+    background-image: url(../img/bg.png);
+    background-size: 100%;
+    background-position: center;
+    min-height: 70vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.changed h2, .changed p {
+    color: white;
+}
+
+.contact .content-area h1 {
+    text-align: center;
 }
 
 /* Resposive media query */
 
 
 @media (max-width: 1190px) {
+    .cm-card {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .cm-card .right-card {
+        margin-top: 0;
+    }
+
+    .cl-sec {
+        padding: 50px 0;
+    }
+
+    .ct-form {
+        padding-top: 50px;
+    }
+
     .nav-links ul {
         position: absolute;
         display: block;
@@ -784,6 +810,122 @@ footer {
         width: 100%;
         box-sizing: border-box;
     }
+
+    .nav-links ul li {
+        border-bottom: 1px solid #43c6ac;
+        padding: 15px 15px;
+    }
+
+    .para {
+        width: auto;
+    }
+
+    .worked p {
+        width: auto;
+    }
+
+    .tab {
+        display: block;
+    }
+
+    .web-cards {
+        width: 400px;
+    }
+
+    .flex-web {
+        width: max-content;
+    }
+
+    .together, .view {
+        font-size: 1.3rem;
+        padding: 17px 35px;
+    }
+
+    .right-view {
+        font-size: 1.3rem;
+        padding: 18px 80px 18px 50px;
+
+    }
+
+    .arrow-left {
+        top: 30%;
+    }
+
+    .cards-flex {
+        flex-direction: column;
+    }
+
+    .right-card {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .indivi-card {
+        display: flex;
+        margin: 15px 0 !important;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .indivi-card {
+        width: 100%;
+    }
+
+
+
+    .indivi-card img {
+        height: auto;
+        width: 48%;
+    }
+
+    .card-detail {
+        width: 48%;
+    }
+
+    .tab {
+        display: block;
+    }
+
+    .cf-alighn {
+        flex-direction: column-reverse;
+    }
+
+    .cf-alighn .right-card,
+    .cf-alighn .left-card {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .blog {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .subscribe {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .butn {
+        width: 60%;
+    }
+
+    .off {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .desk-right {
+        margin-left: 100px;
+        margin-top: 38px;
+    }
+
 }
 
 
@@ -888,6 +1030,43 @@ footer {
 
         align-items: baseline;
         padding: 10px 15px;
+    }
+
+    .flex-call {
+        flex-direction: column;
+    }
+
+    .field-flex {
+        flex-direction: column;
+    }
+
+    .indiv-field {
+        width: 100%;
+    }
+
+    .ct-form {
+        padding-top: 25px;
+    }
+
+    .sub {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .abg {
+        display: none;
+    }
+
+    .changed h2 {
+        margin-bottom: 0;
+    }
+
+    .mailto {
+        font-size: 1.12rem;
+    }
+
+    .contact {
+        height: 35vh;
     }
 }
 
